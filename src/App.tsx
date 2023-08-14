@@ -10,8 +10,11 @@ function App() {
     'Las donitas del Costco son infinitamente mejores que las de Sams',
     'El único lunes que no es pesado es cuando ese lunes es quincena',
     'Las quesadillas sí llevan queso',
-    'Mezclar alcohol con hielo es malo para el hígado',
-    'Un agujero negro es el segundo objeto más pesado del universo después del ego de un programador'
+    'Mezclar cualquier bebida con hielo es malo para el hígado',
+    'Un agujero negro es el segundo objeto más pesado del universo después del ego de un programador',
+    'Los viernes nunca se deploya a producción, a menos que te guste la pizza',
+    'Hay más memes de programación que habitantes en Tlaxcala',
+    'ChatGPT empezó como Senior y ahorita es solo un becario que googlea mal'
   ];
 
   const getRandomSentence = () => {
@@ -32,7 +35,7 @@ function App() {
       <h1>{phrase}</h1>
       <div className="card">
         <button onClick={getRandomSentence}>
-          Generar
+          Generar una verdad
         </button>
       </div>
     </>
