@@ -8,7 +8,7 @@ function App() {
 
   const phrases = [
     'Las donitas del Costco son infinitamente mejores que las de Sams',
-    'El único lunes que no es pesado es cuando ese lunes es',
+    'El único lunes que no es pesado es cuando ese lunes es quincena',
     'Las quesadillas sí llevan queso',
     'Mezclar alcohol con hielo es malo para el hígado',
     'Un agujero negro es el segundo objeto más pesado del universo después del ego de un programador'
